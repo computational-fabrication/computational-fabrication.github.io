@@ -104,7 +104,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
-    width: 40%;
+    /* width: 40%; */
     float: right;
   }
 
