@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+  body {
+    background-image: url("images/ist.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+  }
+
+  .content {
+    font-family: 'PT Sans', sans-serif;
+    background: white;
+    max-width: 894px;
+    min-width: 467px;
+    margin: 30px auto;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 10px #888;
+    overflow: auto;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    margin-top: 0px;
+    padding: 1px;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 15px 10px -15px #888;
+  }
+  
+  .header h1 {
+    font-size: 45px;
+  }
+  
+  .about {
+      font-weight: normal;
+      text-align: justify;
+      padding: 30px;
+      margin: 0px auto;
+      max-width: 534px;
+  }
+
+  .about div {
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22.5px;
+    padding-top: 5px;
+    overflow: auto;
+  }
+
+  .about div div {
+      font-weight: bold;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 22.5px;
+      padding-top: 5px;
+      overflow: auto;
+  }
+
+  .main_links {
+    margin: 0 auto;
+  }
+
+  .about div img {
+    max-height: 30px;
+  }
+
+  .zoom {
+    padding: 0 20px 0px 10px;
+  }
+
+  .discord {
+    padding: 0 0px 0px 10px;
+  }
+
+  .darrow {
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+  }
+
+  .small_header {
+    padding: 10px 40px 10px 40px;
+    font-weight: bold;
+    overflow: auto;
+    box-shadow: 0px 15px 15px -15px #888, 0px -15px 5px -15px #888;
+    margin-top: 30px;
+    clear: both;
+  }
+
+  .left {
+      width: 60%;
+      float: left;
+      font-size: 22.5px;
+  }
+
+  .right {
+    font-weight: bold;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 40%;
+    float: right;
+  }
+
+  .right img {
+      max-height: 22.5px;
+      padding-left: 10px;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 406px;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 406px;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .talks {
+      padding: 30px 30px 0px 30px;
+  }
+
+  .motivational {
+      width: 406px;
+      float: left;
+      box-shadow: 0px 0px 10px #888;
+  }
+
+  .motivational img {
+    max-width: 406px;
+    box-shadow: 0px 15px 15px -15px #888;
+  }
+
+  .deepdive {
+    width: 406px;
+    float: right;
+    box-shadow: 0px 0px 10px #888;
+  }
+
+  .deepdive img {
+    max-width: 406px;
+    box-shadow: 0px 15px 15px -15px #888;
+  }
+
+  .info {
+      margin: 30px;
+      overflow: auto;
+  }
+
+  .info div {
+      float: left;
+      width: 227.7px;
+  }
+
+  .info img {
+      max-height: 125.1px;
+      float:right;
+  }
+
+  .name {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 15px;
+  }
+
+  .title {
+      font-size: 18px;
+  }
+
+  .abstract {
+    font-size: 18px;
+    color: #0a66be;
+  }
+
+  .abstract:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .hidden {
+      display: none;
+      text-align: justify;
+      margin-top: 10px;
+  }
+
+  /* Footer */
+  .footer {
+    margin: 30px 30px 0 30px;
+    text-align: center;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 910px) {
+    .motivational {
+      margin: 0 auto;
+      padding-bottom: 1px;
+      float: none;
+    }
+    .deepdive {
+      margin: 0 auto;
+      margin-top: 30px;
+      padding-bottom: 1px;
+      float: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .left {
+      width: 100%;
+      float: none;
+      display: block;
+      text-align: left;
+      justify-content: left;
+      margin-top: 5px;
+    }
+    .right {
+      width: 100%;
+      float: none;
+      display: block;
+      text-align: left;
+      margin-top: 10px;
+    }
+    .right img {
+      margin-bottom: -5px;
+    }
+  }
+
+  @media screen and (max-width: 570px) {
+    .about div {
+      font-weight: bold;
+      text-align: center;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      font-size: 22.5px;
+      padding-top: 5px;
+      overflow: auto;
+    }
+
+    .shifter {
+      margin-top: 10px;
+    }
+  }
