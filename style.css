@@ -94,24 +94,39 @@
   }
 
   .left {
-      width: 60%;
-      float: left;
+      /* width: 60%; */
+      /* float: left; */
       font-size: 22.5px;
   }
 
   .right {
+    font-size: 18px;
+    margin-top: 10px;
     font-weight: bold;
-    text-align: right;
+    /* text-align: right; */
     display: flex;
-    justify-content: right;
+    /* justify-content: right; */
+    /* justify-content: center; */
     align-items: center;
     /* width: 40%; */
-    float: right;
+    /* float: right; */
+  }
+
+  .t_US {
+    display: none;
+  }
+
+  .t_A {
+    display: none;
+  }
+
+  .selector {
+    margin: 0 1ex 0 1ex;
   }
 
   .right img {
       max-height: 22.5px;
-      padding-left: 10px;
+      /* padding-left: 10px; */
   }
   
   /* Create two unequal columns that floats next to each other */
@@ -193,12 +208,16 @@
 
   .name {
       font-weight: bold;
-      font-size: 18px;
-      margin-bottom: 15px;
+      font-size: 16px;
+  }
+
+  .affiliation {
+    font-size: 16px;
+    margin-bottom: 1ex;
   }
 
   .title {
-      font-size: 18px;
+      font-size: 16px;
   }
 
   .abstract {
@@ -221,6 +240,21 @@
   .footer {
     margin: 30px 30px 0 30px;
     text-align: center;
+  }
+
+  .organizer {
+    max-width: 223px;
+    float:left;
+    margin-left: 20px;
+  }
+
+  .organizer img {
+    max-height: 250px;
+  }
+
+  .organizer div {
+    font-size: 18px;
+    font-weight: bold;
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */

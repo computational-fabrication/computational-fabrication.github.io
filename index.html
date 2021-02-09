@@ -6,7 +6,6 @@
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts.js"></script>
-
 <div class="content">
 <div class="header">
   <h1>Computational Fabrication Seminar</h1>
@@ -35,7 +34,17 @@
         Week 1: Computational Architecture
       </div>
       <div class="right">
-          <span>Thursday 11th March at 12:00am CET</span> <img src="images/calendar.png" />
+          <img src="images/calendar.png" />
+          <select name="time" class="selector" onchange="myFunction(this)">
+            <option value="0">Europe</option>
+            <option value="1">United States</option>
+            <option value="2">Asia</option>
+          </select>
+          <span class="t_EU">on 11th March at 12:00am CET</span>
+          <span class="t_US">on 11th March at 6:00am EST</span>
+          <span class="t_A">on 11th March at 7:00pm HKT</span>
+          <!--<img src="images/calendar.png" />-->
+          <!--6:00am EST | 12:00am CET | 7:00pm Asia -->
       </div>
   </div>
   <div style="clear: both"></div>
@@ -46,16 +55,18 @@
           <div class="info">
               <div>
                 <div class="name">H&#233;l&#232;ne Lombois-Burger</div>
+                <div class="affiliation">R&D Project Manager<br/>LafargeHolcim Innovation Center</div>
                 <div class="title">To Be Announced</div>
               </div>
               <img src="images/lombois-burgerhelene_2020.PNG" />
           </div>
       </div>
       <div class="deepdive">
-        <img src="images/deepdive.png" />
+        <img src="images/davide_pellis_tile.png" />
         <div class="info">
             <div>
                 <div class="name">Davide Pellis</div>
+                <div class="affiliation">EPFL</div>
                 <div class="title">To Be Announced</div>
             </div>
             <img src="images/Davide_Pellis.PNG" />
@@ -69,7 +80,15 @@
       Week 2: Programming Languages for Design and Fabrication Applications
     </div>
     <div class="right">
-        <span>Thursday 18th March at 1pm EST</span> <img src="images/calendar.png" />
+        <img src="images/calendar.png" />
+        <select name="time" class="selector" onchange="myFunction(this)">
+          <option value="0">Europe</option>
+          <option value="1">United States</option>
+          <option value="2">Asia</option>
+        </select>
+        <span class="t_EU">on 18th March at 7:00pm CET</span>
+        <span class="t_US">on 18th March at 1:00pm EST</span>
+        <span class="t_A">on 18th March at 2:00am HKT</span>
     </div>
   </div>
   <div style="clear: both"></div>
@@ -103,7 +122,15 @@
     Week 3: Assembly-based Fabrication
   </div>
   <div class="right">
-      <span>Thursday 26th March at 10:00am Asia</span> <img src="images/calendar.png" />
+    <img src="images/calendar.png" />
+    <select name="time" class="selector" onchange="myFunction(this)">
+      <option value="0">Europe</option>
+      <option value="1">United States</option>
+      <option value="2">Asia</option>
+    </select>
+    <span class="t_EU">on 26th March at 3:00am CET</span>
+    <span class="t_US">on 26th March at 9:00pm EST</span>
+    <span class="t_A">on 26th March at 10:00am HKT</span>
   </div>
 </div>
 <div style="clear: both"></div>
@@ -137,7 +164,15 @@
     Week 4: Perception and Fabrication
   </div>
   <div class="right">
-      <span>Thursday 1st April at 1pm CET</span> <img src="images/calendar.png" />
+    <img src="images/calendar.png" />
+    <select name="time" class="selector" onchange="myFunction(this)">
+      <option value="0">Europe</option>
+      <option value="1">United States</option>
+      <option value="2">Asia</option>
+    </select>
+    <span class="t_EU">on 1st April at 12:00am CET</span>
+    <span class="t_US">on 1st April at 6:00am EST</span>
+    <span class="t_A">on 1st April at 7:00pm HKT</span>
   </div>
 </div>
 <div style="clear: both"></div>
@@ -171,7 +206,15 @@
     Week 5: Machine Learning and Engineering Design
   </div>
   <div class="right">
-      <span>Thursday 7th April at 1pm EST</span> <img src="images/calendar.png" />
+    <img src="images/calendar.png" />
+    <select name="time" class="selector" onchange="myFunction(this)">
+      <option value="0">Europe</option>
+      <option value="1">United States</option>
+      <option value="2">Asia</option>
+    </select>
+    <span class="t_EU">on 7th April at 7:00pm CET</span>
+    <span class="t_US">on 7th April at 1:00pm EST</span>
+    <span class="t_A">on 7th April at 2:00am HKT</span>
   </div>
 </div>
 <div style="clear: both"></div>
@@ -205,7 +248,15 @@
     Week 6: Structure and Appearance
   </div>
   <div class="right">
-      <span>Thursday 16th April at 1pm Asia</span> <img src="images/calendar.png" />
+    <img src="images/calendar.png" />
+    <select name="time" class="selector" onchange="myFunction(this)">
+      <option value="0">Europe</option>
+      <option value="1">United States</option>
+      <option value="2">Asia</option>
+    </select>
+    <span class="t_EU">on 16th April at 3:00am CET</span>
+    <span class="t_US">on 16th April at 9:00pm EST</span>
+    <span class="t_A">on 16th April at 10:00am HKT</span>
   </div>
 </div>
 <div style="clear: both"></div>
@@ -235,9 +286,33 @@
 <div style="clear: both"></div> 
 
 <div class="footer">
-    <hr />
-  Some footer style info goes here...
+  <hr />
+  <h2>Organizers</h2>
+  <div class="aligner">
+    <div class="organizer">
+      <img src="images/adriana.jpg" />
+      <div>Adriana Schulz</div>
+      <div>University of Washington</div>
+    </div>
+    <div class="organizer">
+      <img src="images/noboyuki.jpg" />
+      <div>Nobuyuki Umetami</div>
+      <div>University of Tokyo</div>
+    </div>
+    <div class="organizer">
+      <img src="images/michal.jpg" />
+      <div>Michal Piovarci</div>
+      <div>IST Austria</div>
+    </div>
+    <div class="organizer">
+      <img src="images/bernd.png" />
+      <div>Bernd Bickel</div>
+      <div>IST Austria</div>
+    </div>
+  </div>
 </div>
+
+<div style="clear: both"></div> 
 
 </div>
 </body>
