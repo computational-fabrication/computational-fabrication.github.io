@@ -243,9 +243,9 @@
   }
 
   .organizer {
-    max-width: 223px;
+    max-width: 200px;
     float:left;
-    margin-left: 20px;
+    margin-left: 15px;
   }
 
   .organizer img {
