@@ -66,8 +66,9 @@
     margin: 0 auto;
   }
 
-  .about div img {
+  .about div a img {
     max-height: 30px;
+    margin-bottom: -5px;
   }
 
   .zoom {
@@ -124,7 +125,11 @@
     margin: 0 1ex 0 1ex;
   }
 
-  .right img {
+  .right a {
+    margin-bottom: -5px;
+  }
+
+  .right a img {
       max-height: 22.5px;
       /* padding-left: 10px; */
   }
