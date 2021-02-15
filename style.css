@@ -8,6 +8,10 @@
     background-position: top;
   }
 
+  a {
+    color:black;
+  }
+
   .content {
     font-family: 'PT Sans', sans-serif;
     background: white;
