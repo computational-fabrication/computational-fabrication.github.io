@@ -11,6 +11,15 @@
   a {
     color:black;
   }
+  
+  a:visited {
+    color:black;
+  }
+
+  a:hover {
+    color:black;
+    text-decoration: underline;
+  }
 
   .content {
     font-family: 'PT Sans', sans-serif;
