@@ -260,6 +260,10 @@
     text-align: center;
   }
 
+  .aligner {
+    margin-left: 110px;
+  }
+
   .organizer {
     width: 25%;
     /*max-width: 200px;*/
