@@ -314,18 +314,33 @@
   
   .talkim {
 	  float:left;
-	  padding: 0 20px;	  
+	  margin: 0 10px;	 
 	  font-family: 'Josefin Sans', sans-serif;
 	  font-size: 120%;
 	  margin-bottom: 30px;
+	  max-width: 390px;
+      box-shadow: 0px 0px 10px #888;
+  }
+  
+  .talkim p {
+    font-family: 'PT Sans', sans-serif;
+	  font-size: 80%;
+	  padding: 0 20px;	  
+	  text-align: left;
+	  max-width: 390px;
   }
   
   .pasttalks div a {
 	  text-decoration: none;
   }
   
-  .pasttalks div a img {
-	  max-width: 370px;
+  .pasttalks div a img { 
+	  max-width: 390px;
+	  margin-bottom: 10px;
+  }
+  
+  .pasttalks div a div img {
+	  margin-bottom: -3px;
   }
   
   /* Footer */
