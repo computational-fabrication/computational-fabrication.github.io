@@ -48,7 +48,6 @@
   .about {
       font-weight: normal;
       text-align: justify;
-      padding: 30px;
       margin: 0px auto;
       max-width: 534px;
   }
@@ -266,6 +265,40 @@
       top: 0px;
       left: 0px;
     }
+	
+	/* Lates */
+	
+  .latest {
+    margin: 30px 30px 0 30px;
+    text-align: center;
+  }
+
+  .latest div {
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22.5px;
+    padding-top: 5px;
+    overflow: auto;
+  }
+
+  .latest div div {
+      font-weight: bold;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 22.5px;
+      padding-top: 5px;
+      overflow: auto;
+  }
+
+  .latest div a img {
+    max-height: 30px;
+    margin-bottom: -5px;
+  }
 
   /* Footer */
   .footer {
