@@ -115,6 +115,7 @@
       /* width: 60%; */
       /* float: left; */
       font-size: 22.5px;
+	  font-family: 'Josefin Sans', sans-serif;
   }
 
   .right {
@@ -387,7 +388,7 @@
   }
   
   @media screen and (max-width: 600px) {
-    .left {
+    .left {		
       width: 100%;
       float: none;
       display: block;
