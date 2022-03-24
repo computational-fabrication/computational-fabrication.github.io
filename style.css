@@ -373,13 +373,17 @@
     font-weight: bold;
   }
 
+
   /* Style the tab */
 .tab {
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 2px solid rgb(255, 255, 255);
   background-color: #f5f5f5;
-
 }
+
 
 /* Style the buttons inside the tab */
 .tab button {
